@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	height: 100vh;
+	user-select: none;
+	-webkit-user-select: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
